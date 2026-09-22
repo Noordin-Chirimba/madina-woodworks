@@ -85,3 +85,6 @@ input:invalid:not(:placeholder-shown),select:invalid:focus{border-color:#7a1f14}
 .intro-benefits strong{color:var(--gold-text,var(--gold));font-family:var(--serif);font-size:25px;font-weight:500}
 .intro-benefits span{color:#5f574c;font-size:10px;line-height:1.35;letter-spacing:.1em;text-transform:uppercase}
 @media(max-width:800px){.intro-benefits{gap:18px;justify-content:space-between}.intro-benefits div{align-items:flex-start;display:flex;flex-direction:column;gap:3px}.intro-benefits strong{font-size:22px}.intro-benefits span{font-size:9px}.form-actions{align-items:stretch;flex-direction:column}.form-actions .button{width:100%}}
+
+/* Keep the full logo visible in the dark footer. */
+.site-footer .footer-brand img{background:#fff;border-radius:2px;filter:none;height:auto;max-width:100%;object-fit:contain;padding:6px;width:160px}
