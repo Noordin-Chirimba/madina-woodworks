@@ -88,3 +88,4 @@ input:invalid:not(:placeholder-shown),select:invalid:focus{border-color:#7a1f14}
 
 /* Keep the full logo visible in the dark footer. */
 .site-footer .footer-brand img{background:#fff;border-radius:2px;filter:none;height:auto;max-width:100%;object-fit:contain;padding:6px;width:160px}
+.hero-content h1{font-size:clamp(38px,5vw,72px);line-height:.92;margin:24px 0 28px}.hero-content h1 em{font-size:clamp(32px,4vw,58px);line-height:.94;margin-top:6px}
