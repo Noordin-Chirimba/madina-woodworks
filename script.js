@@ -27,10 +27,25 @@ document.addEventListener('click', (e) => {
 
 // Advert slideshow
 const adImages = [
+  'images/adverts/ficher.png',
+  'images/adverts/eu_handle.png',
   'images/adverts/cylinders.png',
   'images/adverts/euro_handle.png',
   'images/adverts/hinge_handle.png',
-  'images/adverts/madina_spring_handle_ad.png'
+  'images/adverts/madina_spring_handle_ad.png',
+  'images/adverts/Door_closer.png',
+  'images/adverts/door.png',
+  'images/adverts/Designer.png',
+  'images/adverts/Designer%20(3).png',
+  'images/adverts/Designer%20(2).png',
+  'images/adverts/Co_spring.png',
+  'images/adverts/Silicone.png',
+  'images/adverts/flushBolts.png',
+  'images/adverts/spring_handles.png',
+  'images/adverts/solid_handle.png',
+  'images/adverts/st.png',
+  'images/adverts/table.png',
+  'images/adverts/wardrobe.png'
 ];
 
 const adSlider = document.querySelector('#ad-slider');
